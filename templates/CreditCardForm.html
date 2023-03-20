@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<h4>
+    firsttechfed.com | 855.855.8805
+    PO Box 2100 Beaverton, OR 97075-2100
+</h4>
+<h1>First Tech</h1>
+<h2>Federal Credit Union</h2>
+<h2>Credit Card Automatic Payment Authorization</h2>
+<body>
+    <form method="POST" action="/">
+        <h3>Enter your information</h3>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name">
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name"><br><br>
+
+        <input type="radio" id="new_auth" name="credit_auth" value="1">
+        <label for="new_auth">New authorization</label><br>
+        <input type="radio" id="current_auth" name="credit_auth" value="2">
+        <label for="current_auth">Change current authorization</label><br><br>
+
+        <h3>Please debit my monthly payment from my account listed below:</h3>
+        <p>
+            This form must be received at least 10 business days prior to payment date for this automatic payment to go
+            into effect. Changes may not take effect
+            until the following payment cycle (up to 45 days) from when the signed form is received by Payment Services.
+        </p>
+        Checking:<input type="checkbox" value="3" name="Part2"><br>
+        <label for="checking_acc_num">Checking account number:</label>
+        <input type="text" id="checking_acc_num" name="checking_acc_num">
+        <label for="checking_aba_num">Checking ABA (Routing) Number:</label>
+        <input type="text" id="checking_aba_num" name="checking_aba_num"><br>
+        <label for="checking_start_month">Month to begin:</label>
+        <input type="text" id="checking_start_month" name="checking_start_month"><br>
+        Savings:<input type="checkbox" value="4" name="Part2">
+        <label for="saving_acc_num">Savings account number:</label>
+        <input type="text" id="saving_acc_num" name="savings_acc_num">
+        <label for="saving_aba_num">Savings ABA (Routing) Number:</label>
+        <input type="text" id="saving_aba_num" name="saving_aba_num"><br>
+        <label for="saving_start_month">Month to begin:</label>
+        <input type="text" id="saving_start_month" name="saving_start_month"><br>
+
+        <h3>Please review the due date of your next payment. You may need to make a manual payment.</h3>
+        <input type="radio" id="full_balance" name="payments" value="1">
+        <label for="full_balance">Full Balance Payment</label><br>
+        <input type="radio" id="minimum_pay" name="payments" value="2">
+        <label for="minimum_pay">Minimum Payment</label><br>
+        <input type="radio" id="fixed_amount" name="payments" value="3">
+        <label for="fixed_amount">Fixed Amount</label><br>
+        <label for="amount">$:</label>
+        <input type="text" id="amount" name="amount"><br />
+
+        <p>
+            I/We hereby authorize First Technology Federal Credit Union ("Credit Union"), along with their third party
+            service provider, to originate ACH credit entries to my credit card account as indicated above. T
+            his authorization is to remain in full force and effect until the Credit Union has received written notification
+            from me of its termination in such manner as to afford the Credit Union a reasonable opportunity to act on it
+            (no less than 10 days prior to transfer date). I/We acknowledge that our origination of ACH entries under this
+            agreement must comply with United States law. I/We
+            understand the payment will be deducted on the 25th day after statement close and
+            reoccurring monthly thereafter.
+        </p>
+
+        <label for="signature">Signature:</label>
+        <input type="text" id="signature" name="signature"><br>
+        <label for="get_date">Date:</label>
+        <input type="date" id="get_date" name="get_date"><br />
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <h3>
+        If you’re paying from a non-First Technology Federal Credit Union account,
+        we require a voided check to begin this service.
+    </h3>
+
+    <p>
+        All items or Automatic Clearing House (“ACH”) transfers to your account are provisional and subject to our
+        receipt of final payment. If final payment is not received, we reserve the right to charge your account
+        for the amount of those items or ACH transfers and impose a return charge on your account.
+        After we have received final payment, we refer to these payments as collected items. If the
+        Credit Union incurs any fee to collect any item the Credit Union may charge such fee to your account.
+        The Credit Union reserves the right to refuse or to return any or all items or funds transferred.
+    </p>
+
+    <p>
+        If an ACH credit that has posted to your account and has been returned from the Credit Union or your other
+        institutions checking or savings account, we will debit your account, return the credit and the transfer will
+        not occur for that particular transfer date. The transfer will not attempt to pull again until the next
+        regularly scheduled date. If the credit continues to be NSF for three consecutive occurrences,
+        we will cancel your ACH origination. In the event of cancellation,
+        the only way to reinstate your ACH origination is to contact the Credit Union and initiate a new origination.
+    </p>
+
+    <p>
+        Where ACH transfers are made for the purpose of making loan payments, the monitoring of the loan balance,
+        the final payoff amount, and the cancellation of the ACH Agreement are the responsibility of the member.
+        The Credit Union is not liable for transfers made or any costs
+        incurred by the member in the event that the ACH Agreement is not canceled at the time a loan is paid off.
+    </p>
+
+    <p>Please refer to the First Technology Federal Credit Union Membership and Account Agreement for further disclosures and information.</p>
+
+    <h3>For Payment Services Department only</h3>
+    <p>
+        Input by                                        Verified by
+    </p>
+    <p>
+        Branch name                                     Member Service Representative
+    </p>
+</body>
+</html>
